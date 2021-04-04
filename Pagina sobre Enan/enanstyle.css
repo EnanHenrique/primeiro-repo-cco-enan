@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: rgb(61, 61, 61);
+}
+
+.header {
+    position: static;
+    border-bottom: solid 5px #ff5757;
+    width: 100%;
+    height: 130px;
+}
+
+.header .container {
+    text-align: center;
+    border-radius: 3px;
+    margin: auto;
+    width: 100%;
+    background-color: #ff5757;
+}
+
+.header .container img {
+    width: 120px;
+    height: 120px;
+}
+
+.div_lista .container {
+    margin-top: 50px;
+}
+
+.div_lista {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+
+.div_lista .container ul {
+    list-style: none;
+}
+
+.div_lista .container ul li {
+    font-size: 30px;
+    display: inline-block;
+}
+
+.div_lista .container ul li a {
+    transition: background 0.3s;
+    padding-right: 200px;
+    padding-left: 200px;
+    text-decoration: none;
+    color: #ff5757;
+    background-color: rgb(61, 61, 61);
+    border-radius: 7px;
+}
+
+.div_lista .container ul li a:hover{
+    background-color: rgb(83, 83, 83);
+}
+
+.div_lista .container ul li a:active{
+    color:rgb(61, 61, 61);
+}
+
+.div_cultivo {
+    float: left;
+    height: 400px;
+    width: 40%;
+}
+
+.div_cultivo .container {
+    border-radius: 10px;
+    margin-left: 10px;
+    align-items: initial;
+    width: 100%;
+    height: 400px;
+    background-image: url("./img/morangobackground.jpg");
+    background-size: cover;
+}
+
+.texto {
+    margin-right: 20px;
+    text-align: justify;
+    height: 400px;
+    width: 50%;
+    float: right;
+}
+
+.titulo {
+    font-family: 'exo2';
+    color: #ff5757;
+    font-size: 65px;
+}
+
+.contexto {
+    font-family:'exo2';
+    font-size: 30px;
+    color: #f1a8a8;
+}
+
+.sensores {
+    padding-top: 50px;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(61, 61, 61);
+}
+
+.sensores .container {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 140px;
+    width: 80%;
+    height: 300px;
+}
+
+.box-item {
+    width: 30%;
+    display: inline-block;
+}
+
+.box-item img {
+    width: 40%;
+}
+
+.sensores h1 {
+    color: #ff5757;
+    margin-left: 320px;
+    font-family: 'exo2';
+    font-size: 75px;
+    font-weight: lighter;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 40px;
+    width: 100%;
+    background-color: #ff5757;
+    height: 60px;
+}
+
+.border {
+    margin-bottom: 5px;
+    background-color:#ff5757;
+    height: 5px;
+    width: 100%;
+}
+
+.text-red {
+    color:#f1a8a8;
+    font-family: 'exo2';
+}
+
+.text-red-temp {
+    margin-right: 50px;
+    color:#f1a8a8;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.botao_subir {
+    transition: background 0.3s;
+    font-weight: bolder;
+    font-family: 'exo2' ;
+    text-decoration: none;
+    border-radius: 7px;
+    color: #f1a8a8;
+    background-color: rgb(61, 61, 61);
+    border: 0;
+    padding: 10px 50px 10px 50px;
+}
+
+.botao_subir:hover{
+    color: #ff5757;
+}
+
+.botao_subir:active {
+    background-color:  rgb(83, 83, 83);
+}
+
